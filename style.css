@@ -41,3 +41,52 @@ body{
 .instagram_phone img{
     height: 50rem;
 }
+
+.instagram_continue{
+    display: flex;
+    align-items: center; /*flex-direction: column (Align-items se torna eixo X)*/
+    justify-content: space-around; /* flex-direction: column (Justify-content se torna eixo Y)*/
+
+    flex-direction: column;
+
+    width: 50%;
+    min-height: 34rem;
+}
+
+.group{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    flex-direction: column;
+
+    background-color: #ffffff;
+
+    width: 100%;
+    padding: 1.3rem 0;
+    border: 1px solid lightgray;
+}
+
+.profile_photo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    border-radius: 50%;
+    
+    overflow: hidden;
+}
+
+.profile_photo img{
+    height: 120px;
+}
+
+
+.instagram_logo {
+    height: 3rem;
+}
+
+.group:nth-child(1){
+    min-height: 19rem;
+}
+
